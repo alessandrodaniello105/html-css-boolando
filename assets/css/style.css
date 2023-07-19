@@ -81,8 +81,8 @@ header {
 
 .topbar .menu {
   color: white;
-  width: 30%;
-  min-width: 162px;
+  width: 25%;
+  min-width: 190px;
 }
 
 .topbar .menu.user {
@@ -97,7 +97,7 @@ header {
 
 .topbar .logo {
   text-align: center;
-  width: 40%;
+  width: 50%;
 }
 
 .topbar img {
