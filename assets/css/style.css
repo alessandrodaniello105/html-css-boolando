@@ -114,9 +114,9 @@ header {
 }
 
 .product {
-  width: calc(100% / 3);
+  width: 33%;
   max-width: 390px;
-  min-width: 300px;
+  min-width: 245px;
   margin: 20px 0;
 }
 
