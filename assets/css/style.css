@@ -40,16 +40,26 @@ body {
 /* HEADER */
 
 header {
-  background-color: #FF6900;
-  height: 80px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  height: 60px;
   width: 100%;
+  background-color: #FF6900;
+  box-shadow: 0 0 2px  black;
 }
 
 .topbar {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 80px;
+  height: 100%;
+}
+
+.topbar ul li {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0 5px;
 }
 
 .topbar ul li,
@@ -79,19 +89,26 @@ header {
   text-align: right;
 }
 
+.topbar .menu.user a {
+  text-align: right;
+  font-size: 0.9rem;
+  padding: 0 2px;
+}
+
 .topbar .logo {
   text-align: center;
   width: 40%;
 }
 
 .topbar img {
-  height: 30px;
+  height: 25px;
 }
 
 /* MAIN */
 
 .main-wrap {
   flex-wrap: wrap;
+  padding-top: 60px;
   margin: 20px auto;
   width: 98%;
 }
