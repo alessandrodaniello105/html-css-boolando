@@ -3,3 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* HEADER */
+
+header {
+  background-color: #FF6900;
+  height: 80px;
+}
+
+.topbar {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.topbar ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.topbar .menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.topbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.topbar .menu {
+  color: white;
+  width: 20%;
+}
+
+.topbar .menu.user {
+  text-align: right;
+}
+
+.topbar .logo {
+  text-align: center;
+  width: 60%;
+}
+
+.topbar img {
+  height: 30px;
+}
