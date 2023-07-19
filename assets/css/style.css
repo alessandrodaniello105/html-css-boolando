@@ -52,17 +52,20 @@ header {
   height: 80px;
 }
 
-.topbar ul li {
+.topbar ul li,
+.bottom-bar .box-informativa ul li {
   display: inline-block;
   list-style: none;
 }
 
-.topbar .menu a {
+.topbar .menu a,
+.bottom-bar .box-informativa a {
   color: white;
   text-decoration: none;
 }
 
-.topbar .menu a:hover {
+.topbar .menu a:hover,
+.bottom-bar .box-informativa a:hover {
   text-decoration: underline;
 }
 
@@ -187,4 +190,22 @@ header {
 
 .original.price {
   text-decoration: line-through;
+}
+
+/* FOOTER */
+
+footer {
+  height: 120px;
+  color: white;
+  background-color: #1A1A1A;
+}
+
+.bottom-bar {
+  margin: 0 auto;
+  align-items: center;
+  height: 100%;
+}
+
+.box-informativa h2 {
+  padding-bottom: 10px;
 }
