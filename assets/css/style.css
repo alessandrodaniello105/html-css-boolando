@@ -11,7 +11,7 @@ body {
 /* UTILITIES */
 
 .container {
-  width: 95%;
+  width: 98%;
   max-width: 1200px;
 }
 
@@ -42,7 +42,7 @@ body {
 header {
   background-color: #FF6900;
   height: 80px;
-  width: 100vw;
+  width: 100%;
 }
 
 .topbar {
@@ -93,7 +93,7 @@ header {
 .main-wrap {
   flex-wrap: wrap;
   margin: 20px auto;
-  width: 100%;
+  width: 98%;
 }
 
 .product {
@@ -195,17 +195,50 @@ header {
 /* FOOTER */
 
 footer {
-  height: 120px;
+  height: 100px;
   color: white;
   background-color: #1A1A1A;
 }
 
+footer h2 {
+  font-size: 1.2rem;
+}
+
+footer ul {
+  font-size: 0.8rem;
+}
+
+footer ul li {
+  position: relative;
+  left: -5px;
+  padding: 0 5px;
+}
+
 .bottom-bar {
   margin: 0 auto;
-  align-items: center;
+  padding-top: 25px;
   height: 100%;
 }
 
 .box-informativa h2 {
   padding-bottom: 10px;
+}
+
+.box-social {
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-social span {
+  font-size: 0.8rem;
+}
+
+.box-social .social-icon {
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.box-social .social-icon a {
+  color: white;
 }
