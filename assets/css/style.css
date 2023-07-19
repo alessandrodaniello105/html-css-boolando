@@ -43,7 +43,7 @@ header {
   position: fixed;
   z-index: 999;
   top: 0;
-  height: 60px;
+  height: 50px;
   width: 100%;
   background-color: #FF6900;
   box-shadow: 0 0 2px  black;
@@ -59,7 +59,7 @@ header {
 .topbar ul li {
   font-weight: bold;
   font-size: 0.9rem;
-  padding: 0 5px;
+  padding-right: 5px;
 }
 
 .topbar ul li,
@@ -89,10 +89,10 @@ header {
   text-align: right;
 }
 
-.topbar .menu.user a {
+.topbar .menu.user a i {
   text-align: right;
-  font-size: 0.9rem;
-  padding: 0 2px;
+  font-size: 0.7rem;
+  padding-left: 5px;
 }
 
 .topbar .logo {
