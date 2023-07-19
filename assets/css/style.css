@@ -106,6 +106,21 @@ header {
 
 /* BIG COL (IMAGE BOX) */
 
+.big-col {
+  cursor: pointer;
+}
+
+.big-col img:last-child {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.big-col:hover img:last-child {
+  display: block;
+}
+
 .product .big-col {
   position: relative;
 }
@@ -121,6 +136,10 @@ header {
   background-color: white;
   padding: 5px 15px;
   font-size: 2rem;
+}
+
+.product .heart:hover {
+  color: red;
 }
 
 .img-bottom-text {
