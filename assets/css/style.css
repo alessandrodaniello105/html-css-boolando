@@ -8,6 +8,8 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* UTILITIES */
+
 .container {
   width: 95%;
   max-width: 1200px;
@@ -17,11 +19,26 @@ body {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.debug {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid black; 
+}
+
+.de-box > div {
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 1px solid black;
+}
+
 /* HEADER */
 
 header {
   background-color: #FF6900;
   height: 80px;
+  width: 100vw;
 }
 
 .topbar {
@@ -47,7 +64,8 @@ header {
 
 .topbar .menu {
   color: white;
-  width: 20%;
+  width: 30%;
+  min-width: 162px;
 }
 
 .topbar .menu.user {
@@ -56,9 +74,46 @@ header {
 
 .topbar .logo {
   text-align: center;
-  width: 60%;
+  width: 40%;
 }
 
 .topbar img {
   height: 30px;
+}
+
+/* MAIN */
+
+.main-wrap {
+  flex-wrap: wrap;
+  margin: 40px auto;
+  width: 100%;
+}
+
+.product {
+  width: calc(100% / 3);
+  /* max-width: 300px; */
+  min-width: 300px;
+}
+
+.product .big-col,
+.product .small-col {
+  width: 100%;
+}
+
+.product .big-col {
+  position: relative;
+}
+
+
+.product img {
+  width: 100%;
+}
+
+.product .heart {
+  position: absolute;
+  top: 20px; 
+  right: 0;
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
 }
