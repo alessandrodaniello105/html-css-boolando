@@ -209,7 +209,7 @@ header {
 
 .original.price {
   text-decoration: underline;
-  text-underline-offset: -40%;
+  text-underline-offset: -30%;
   text-decoration-skip-ink: none;
 }
 
